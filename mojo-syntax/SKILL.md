@@ -189,7 +189,7 @@ var result = MyStruct(headers=d.copy())  # or: headers=d^
 
 ## Imports use `std.` prefix
 
-**All stdlib imports require the `std.` prefix.** The removed-syntax table shows the most common corrections, but the rule is universal.
+**All explicit stdlib imports require the `std.` prefix.** The removed-syntax table shows the most common corrections, but the rule is universal.
 
 ```mojo
 from std.testing import assert_equal, TestSuite
