@@ -89,7 +89,8 @@ If your project uses Python libraries via Mojo's FFI:
 
 ```bash
 pixi add python
-pixi add requests  # or any other Python package you need
+pixi add requests           # conda-forge packages
+pixi add --pypi some-pkg    # PyPI-only packages
 ```
 
 ---
